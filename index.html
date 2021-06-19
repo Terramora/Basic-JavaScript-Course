@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <!--    Линки-->
+    <link rel="stylesheet" href="style.css">
+    <!--    -->
+
+    <div id="menu">
+        <ul class="menu">
+            <li><a href="#">Market</a></li>
+            <li><a id="bucket-counter" href="#" onclick="popups()">Bucket<br></a></li>
+        </ul>
+    </div>
+</head>
+<body>
+<div class="cards" id="cards"></div>
+<div class="popup" id="popup">
+    <div class="popup-content">
+        <section id="section-1">
+            <h2>К</h2>
+        </section>
+        <section id="section-2">
+        </section>
+        <section id="section-3">
+        </section>
+
+        <button onclick="popped()">Скрыть корзину</button>
+        <button id="nextSection" onclick="nextSection()">Далее</button>
+    </div>
+</div>
+<script type="text/javascript" src="script.js"></script>
+</body>
+</html>
